@@ -1,1 +1,0 @@
-# mayakatti.github.io
