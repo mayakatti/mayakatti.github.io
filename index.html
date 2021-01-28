@@ -2,6 +2,13 @@
 <html>
 <title>W3.CSS Template</title> 
 <head>
+
+  <script runat=server>
+Platform.Load("core","1");
+HTTPHeader.SetValue("Access-Control-Allow-Methods","POST");
+HTTPHeader.SetValue("Access-Control-Allow-Origin","*");
+</script>
+
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
